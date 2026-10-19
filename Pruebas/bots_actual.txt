@@ -1,0 +1,21 @@
+PASS Bot rodea cobertura sur real | desvio=3.88 recorrido=9.48
+PASS Persecucion termina en captura por contacto | capturas=1
+PASS Evasor sale de esquina sin quedarse quieto | recorrido=37.80 quieto=0.00
+PASS Escape respeta muros exteriores
+PASS Bot 0 mantiene movimiento durante 30 s | recorrido=244.47 quieto_max=0.00
+PASS Bot 1 mantiene movimiento durante 30 s | recorrido=209.61 quieto_max=0.12
+PASS Bot 2 mantiene movimiento durante 30 s | recorrido=209.79 quieto_max=0.04
+PASS Bot 3 mantiene movimiento durante 30 s | recorrido=179.80 quieto_max=0.00
+PASS Partida autonoma conserva reglas y estado valido
+PASS Fixture captura atrapado
+PASS Superviviente bot llega al aliado rodeando pared | recorrido=8.40
+PASS Bot completa rescate real de un segundo
+PASS Bot vuelve a salvar al mismo aliado tras una nueva captura
+PASS Bot infectado persigue y nunca intenta curar
+PASS Bot utiliza rampa hacia pasarela | altura=4.04
+PASS Bot captura objetivo sobre pasarela
+PASS Bot aprovecha baldosa durante persecucion
+PASS Baldosa permite mantener persecucion valida
+PASS Practica puede empezar con humano superviviente
+PASS Inicio sin preferencia conserva rotacion original
+TOTAL: 20 correctas / 0 fallidas | segundos_simulados=47.76

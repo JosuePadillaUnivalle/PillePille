@@ -1,0 +1,15 @@
+PASS Version 2 explicitly rejected | Versiones incompatibles. Todos deben abrir la misma versión del juego con supervelocidad y rescates.
+PASS Version 3 welcome and playing snapshot | id=1
+PASS Version 3 and three shared pads
+PASS Snapshot carries all new rescue and speed fields
+PASS Old version did not create player
+PASS Remote movement in clear lane | 2.52
+PASS Grounded remote player | 1.034999966621399
+PASS Remote jump visible in snapshots
+PASS Remote dash cooldown visible
+PASS Stale input stops horizontal movement
+PASS No invalid rescue from distant E
+PASS Forged state cannot overwrite authoritative fields
+PASS Remote player activates real speed pad | speed=8.219959259033203
+PASS Pad recharge replicated
+PASS State stream remains live | 72

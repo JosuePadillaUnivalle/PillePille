@@ -1,0 +1,31 @@
+﻿PILLE PILLE - RULE LOGIC VERIFICATION
+Real project sources: Protocol.cs and MatchSimulation.cs. Minimal fake UnityEngine/PlayerMotor adapters.
+Not evaluated: native physics, CharacterController movement, rendering, Unity scene import, executable build or LAN transport.
+PASS | First capture enters trapped state for 10 seconds
+PASS | Trap deadline converts player and resets rescue state
+PASS | Holding E for exactly 1 second frees teammate with unchanged 3-second immunity
+PASS | Releasing E cancels accumulated rescue progress
+PASS | Leaving range cancels rescue before completion
+PASS | Blocked line of sight prevents and cancels rescue
+PASS | Stale held input cancels an incomplete rescue
+PASS | Infected or trapped player cannot rescue; initial infected cannot be cured
+PASS | Capture of rescuer interrupts progress before rescue resolves
+PASS | Trap expiration wins a simultaneous rescue deadline
+PASS | Fixed 50-Hz ticks preserve deadline priority and exact hold duration
+PASS | Repeated captures always trap and allow multiple one-second rescues
+PASS | Previously rescued player converts only when full capture countdown expires
+PASS | No free survivors ends infection even with trapped players
+PASS | Only free survivors count at round timeout
+PASS | Disconnect removes stale rescue reference
+PASS | Disconnect of last infected assigns replacement and keeps valid roles
+PASS | Disconnect with fewer than two players ends round
+PASS | Round restart clears trap, rescue, boost and pad cooldown
+PASS | Pad entry grants exactly 10 seconds and global 20-second cooldown
+PASS | Camping does not reactivate a pad when cooldown expires
+PASS | A different ready pad refreshes boost without stacking duration
+PASS | Boost pickups work for both pursuer and runner
+PASS | Trapped or airborne players cannot activate ground pads
+PASS | Lower-ID newcomer does not steal an uninterrupted rescue
+PASS | Classic and Relay preserve direct tag transfer
+PASS | Snapshot includes protocol version and synchronized half-rescue progress
+TOTAL: 27 passed, 0 failed.

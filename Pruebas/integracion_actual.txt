@@ -1,0 +1,91 @@
+PASS Evasor 6 m/s | 6.000
+PASS Perseguidor 6.9 m/s | 6.900
+PASS Supervelocidad evasor 9 m/s | 9.000
+PASS Supervelocidad perseguidor 10.35 m/s | 10.350
+PASS Supervelocidad conserva dash | 2.400 / 2.400
+PASS Dash mantiene recarga
+PASS Recarga dash
+PASS Expiracion vuelve a velocidad normal
+PASS Salto y aterrizaje | 1.375
+PASS Colision de limite | 16.965
+PASS Rampa alcanza pasarela | (-1.2, 4.0, 0.0)
+PASS Tres baldosas disponibles
+PASS Baldosa concede diez segundos
+PASS Baldosa inicia recarga compartida
+PASS Buff termina antes que recarga
+PASS Esperar encima no reactiva
+PASS Salir y entrar reactiva
+PASS Otra persona respeta recarga
+PASS Perseguidores usan baldosas
+PASS Pasar por encima no activa
+PASS Otra baldosa refresca sin acumular
+PASS Buff refrescado expira
+PASS Atrapado no consume baldosas
+PASS Eliminado no consume baldosas
+PASS Captura crea estado atrapado
+PASS Atrapado no corre salta ni hace dash
+PASS No hay captura repetida de atrapado
+PASS Partida sigue con rescatador libre
+PASS Primer contacto permite rescate
+PASS E acumula medio rescate | 0.500
+PASS Rescate no termina antes de un segundo
+PASS Un segundo libera al atrapado
+PASS Rescate limpia progreso
+PASS Ambos conservan tres segundos de inmunidad
+PASS Inmunidad evita captura inmediata
+PASS Captura 2 vuelve a atrapar sin infectar
+PASS Se permite rescatar de nuevo tras 1 rescates
+PASS Rescate repetido 2 libera en un segundo
+PASS Captura 3 vuelve a atrapar sin infectar
+PASS Se permite rescatar de nuevo tras 2 rescates
+PASS Rescate repetido 3 libera en un segundo
+PASS Tras varios rescates cada captura mantiene ventana completa
+PASS Rescatado varias veces sigue atrapado antes de diez segundos
+PASS Tras varios rescates solo se infecta al vencer el plazo
+PASS Primer contacto permite rescate
+PASS Soltar E cancela
+PASS Volver a pulsar empieza desde cero
+PASS Alejarse cancela rescate
+PASS E fuera de alcance no rescata
+PASS Primer contacto permite rescate
+PASS Perder paquetes suelta E y cancela
+PASS Primer contacto permite rescate
+PASS Rescatador puede ser atrapado
+PASS Captura cancela interaccion
+PASS Infectado inicial no se cura
+PASS Primer contacto permite rescate
+PASS Conversion tiene prioridad al vencer ambos plazos
+PASS Primer contacto permite rescate
+PASS Plazos iguales siguen pendientes antes del ultimo fotograma
+PASS Conversion conserva prioridad con pasos de 20 ms
+PASS Primer contacto permite rescate
+PASS Pared bloquea rescate cercano
+PASS Quitar pared permite rescatar
+PASS Primer contacto permite rescate
+PASS Infectado no tiene permiso de rescate
+PASS E del infectado no libera al atrapado
+PASS Atrapado no puede curarse a si mismo
+PASS Ventana de rescate dura diez segundos
+PASS Sin rescate se convierte
+PASS Superviviente restante puede seguir
+PASS Sin supervivientes libres gana infeccion
+PASS Infeccion termina al agotar tiempo
+PASS Clasico contagia por contacto
+PASS Clasico mantiene inmunidad
+PASS Clasico permite pasar tras inmunidad
+PASS Final clasico
+PASS Pared impide contagio
+PASS Relevo transfiere sin atrapar
+PASS Explosion elimina portador
+PASS Victoria relevo
+PASS Nuevo rescatador no roba progreso existente
+PASS Rescatador original completa pese a competencia
+PASS Primer contacto permite rescate
+PASS Snapshot versionado incluye baldosas
+PASS Snapshot conserva trampa y medio rescate
+PASS Snapshot conserva supervelocidad
+PASS Paquete LAN conserva E mantenida
+PASS Revancha reinicia estados nuevos
+PASS Revancha reinicia baldosas y reloj
+PASS Desconexion cierra ronda sin rivales
+TOTAL: 90 correctas / 0 fallidas

@@ -1,0 +1,17 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+.vs/
+*.csproj
+*.sln
+*.log
+*.pidb
+*.user
+__pycache__/
+*.py[cod]
+/Pruebas/Logica/RulesHarness.exe
+/Pruebas/Logica/RulesHarness.exe.mdb
